@@ -118,4 +118,59 @@ h3::before{
     margin-top: 5px;
     margin-right: 10px;
     color: #77d1b1;
+} 
+
+.job-update small
+{
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+} 
+
+.job-update p
+{
+     margin-bottom: 0 !important;
+} 
+
+.apply-btn
+{
+    height: 40px;
+    background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.apply-btn .btn-primary
+{
+    padding: 0 30px;
+    float: right;
+    border-radius: 0;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.pagelink li{
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.pagelink li:hover, .active
+{
+    color: #fff;
+     background-image: linear-gradient(to right,#6db9ef,#7ce08a);
+}
+
+.left-arrow
+{
+    color: #999;
+}
+
+.right-arrow
+{
+    color: #29b929;
 }
